@@ -1,0 +1,131 @@
+body {
+	padding: 0px;
+	margin: 0px;
+	font: 0.8em Arial, Helvetica, sans-serif; /* Шрифт на веб-странице */
+	background: white; /* Цвет фона */
+	color: black; /* Цвет текста */
+}   
+#header { 
+	font-size: 2.2em; /* Размер текста */
+	text-align: /*right;*/center; /* Выравнивание по центру */
+	padding: 15px; /* Отступы вокруг текста */
+	color: white;
+	margin-left: 0px;
+	list-style-type:none;
+} 
+#header a{
+	color: white;
+	text-decoration: none;
+}
+
+#std  img.doc{
+	float: center;
+}
+#lft ul li a{
+	padding-right: 100px;
+}
+#container {
+	width: auto;/* Ширина макета */
+	margin: 0 auto; /* Выравниваем по центру */
+	background-image: url(img/bluesky.jpg);/*royalblue; /* Цвет колонок */
+	background-size:cover;
+	height: auto;
+}
+#z{
+font: 0.8em Times New Roman, Helvetica, sans-serif;
+padding : 0px;
+}
+#hd table{
+	width:100%;
+}
+
+#lft {
+	width: 150px; /* Ширина левой колонки */
+	float: left;
+	padding: 10px;
+	padding-left: 0px;	
+}
+#rght {
+	width: 165px; /* Ширина правой колонки */
+	float: right;
+	
+	padding-left: 5px;
+	color: #fff;
+}
+.prof{
+	margin-bottom: 75px;
+}
+#cntr {
+	margin: 0 165px; /* Ширина колонок */
+	padding: 10px;
+	height: auto;/*3000px;*/
+	background: rgba(256,256,256,0.7);
+	border: 1px solid white;
+	border-radius: 6px;
+}
+
+h2 {
+	margin: 0 0 1em; 
+}
+#head {
+	list-style-type:none;
+    text-align:left;
+}
+	
+#lft ul{
+	margin-left: 0px;
+	padding-left: 3px;
+	background: rgba(256,256,256,0.1);
+	
+	border-radius: 6px;
+}
+
+#lft ul li:hover{ 
+	background: -webkit-linear-gradient(90deg, #4169E1, #B0E0E6);
+	background: -moz-linear-gradient(90deg, #4169E1, #B0E0E6);
+	background: -o-linear-gradient(90deg, #4169E1, #B0E0E6 );
+	background: -ms-linear-gradient(90deg, #4169E1, #B0E0E6);
+	border-radius: 6px;
+
+}
+
+
+ #head a{
+	color:black;
+	text-decoration:none;
+}
+
+#std p {
+	text-indent: 1.5em; /* Отступ первой строки */
+    text-align: justify; /* Выравнивание по ширине */
+}
+#std a{
+	color:royalblue;
+	text-decoration:none;
+}
+ ul {
+	line-height:1.5;/*normal;*/
+    list-style-position: inside; /* Маркер обтекается текстом */
+}
+
+.sss  {
+	text-align: right;
+	float: right;	
+}
+
+#footer { 
+	clear: both; /* Отменяем действие float */
+	padding: 10px; /* Отступы вокруг текста */
+}
+#footer p{
+	margin: 0 0 1em;
+	text-align: right;
+}
+#footer{
+	color: white;
+}
+#address{
+	color: white;
+	position: absolute;
+	left:0px;
+}
