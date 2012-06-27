@@ -43,7 +43,7 @@ padding : 0px;
 	width: 150px; /* Ширина левой колонки */
 	float: left;
 	padding: 10px;
-	padding-left: 0px;	
+	padding-left: 10px;	
 }
 #rght {
 	width: 165px; /* Ширина правой колонки */
