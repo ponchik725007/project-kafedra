@@ -32,7 +32,7 @@ function hat(){?>
 				</a>
 			
 			</td>	
-			<td width="50%">
+			<td align="right" width="50%">
 				<a href="index.php" title="Перейти на главную страницу">
 					<img src="img/logo.png"  alt="Логотип института" >
 				</a>
